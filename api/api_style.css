@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.api_requests {
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+.input_value {
+  padding: 14px;
+  width: 20%;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+.btn_api {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.title_littel {
+  font-size: 20px;
+  font-family: Tanha;
+  color: #212121;
+}
+.paragraf {
+  text-align: center;
+}

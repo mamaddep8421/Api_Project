@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex1_api</title>
+    <link rel="stylesheet" href="api_style.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <!-- coded html -->
+    <div class="container">
+      <div class="Theme_Dark">
+        <span class="swicht_Theme"> Dark </span>
+        <button id="change_dark">
+          <iconify-icon icon="ion:moon" id="moon_dark"></iconify-icon>
+        </button>
+      </div>
+      <div class="Theme_white">
+        <button id="change_white">
+          <iconify-icon icon="ion:moon-outline" id="moon_white"></iconify-icon>
+        </button>
+      </div>
+      <div class="body_app">
+        <h1>تمرین های فراوین1402/10/21</h1>
+        <p>لینک تمرین ها با زدن دکمه به صفحه خود تمرین میره برای تست</p>
+        <button class="btn_link_project">
+          <a href="../index.html">HOME</a>
+        </button>
+        <button class="btn_link_project">
+          <a href="/regex/regex.html">regex</a>
+        </button>
+        <button class="btn_link_project">
+          <a href="api/api.html">api</a>
+        </button>
+        <button class="btn_link_project">
+          <a href="/File/File.html">file</a>
+        </button>
+        <button class="btn_link_project">
+          <a href="/list_users/list_users.html">list_users</a>
+        </button>
+      </div>
+    </div>
+    <div class="api_requests">
+      <!-- coded html api -->
+      <hr />
+      <form action="" id="form_register">
+        <!-- coded api register html -->
+        <span class="title_littel">api register</span>
+        <br />
+        <input
+          type="text"
+          class="input_value"
+          id="name_register"
+          placeholder="name"
+        />
+        <br />
+        <input
+          type="phone"
+          class="input_value"
+          id="username_register"
+          placeholder="phone"
+        />
+        <br />
+        <input
+          type="password"
+          class="input_value"
+          id="pass_register"
+          placeholder="password"
+        />
+        <br />
+        <button class="btn_api">register</button>
+      </form>
+      <hr />
+      <form action="" id="form_login">
+        <!-- coded api login html -->
+        <span class="title_littel">api login</span>
+        <br />
+        <input
+          type="phone"
+          id="username_login"
+          class="input_value"
+          placeholder="phone"
+        />
+        <br />
+        <input
+          placeholder="password"
+          type="password"
+          id="pass_login"
+          class="input_value"
+        />
+        <br />
+        <button class="btn_api">login</button>
+      </form>
+      <hr />
+      <form action="" id="add_contact">
+        <span class="title_littel">api add contact</span>
+        <br />
+        <input
+          type="text"
+          placeholder="name"
+          class="input_value"
+          id="name_add_contact"
+        />
+        <br />
+        <input
+          placeholder="phone"
+          type="text"
+          class="input_value"
+          id="username_add_contact"
+        />
+        <br />
+        <button class="btn_api">add contact</button>
+      </form>
+      <hr />
+      <button id="getContact" class="btn_api">get contact list</button>
+    </div>
+    <!-- scripts link: -->
+    <script type="module" src="./app_api.js"></script>
+    <script src="app_api.js"></script>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.regex-input{
+  margin: 10px;
+  padding: 10px;
+}
+.regex-input > *{
+  margin: 5px;
+}
+.input{
+  padding: 15px 5px;
+  border: none;
+  outline: none;
+  background-color: #EFEFE0;
+  border-radius: 10px;
+}
